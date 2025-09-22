@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 93px;
+    padding-left: 160px;
+    padding-right: 160px;
+    font-family: DM Sans;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-weight: 500;
+    font-style: 50px;
+    color: #181717;
+}
+
+header nav{
+    display: flex;
+    gap: 29px;
+}
+
+header nav p{
+    font-weight: 500;
+    font-style: 22px;
+    color: #181717;
+}
+.section-1{
+    margin-top: 130px;
+}
+.section-1 .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 .content h1{
+    width: 360px;
+    font-weight: 500;
+    font-size: 60px;
+    color: #181717;
+    
+}
+
+.section-1 .content p{
+    font-weight: 400;
+    font-size: 32px;
+    color: #606060;
+}
+
+.section-1 img{
+    margin-top: 130px;
+    width: 33px;
+    height: 39px;
+}
+
+.section-2{
+    margin-top: 83px;
+    display: flex;
+    gap: 124px;
+}
+.section-2 .content-2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-2 .content-2 h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #181717;
+    margin-bottom: 25px;
+}
+
+.section-2 .content-2 .first{
+    font-weight: 400;
+    font-size: 22px;
+    color: #181717;
+    margin-bottom: 20px;
+}
+
+.section-2 .content-2 .second{
+    font-weight: 400;
+    font-size: 22px;
+    color: #606060;
+    margin-bottom: 210px;
+}
+
+.section-2 .content-2 a{
+    font-weight: 500;
+    font-size: 22px;
+    color: #181717;
+    text-decoration: underline;
+    
+}
+
+.section-2 .block{
+    width: 640px;
+    height: 360px;
+    background-color: #606060;
+
+}
+
+.line{
+    margin-top: 108px;
+    border: 1.5px solid #181717;
+}
+
+footer{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+footer .data p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #2429AF;
+}
+
+footer .right{
+    display: flex;
+    gap: 30px;
+}
+
+footer .right p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #181717;
+}
